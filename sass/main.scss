@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+// MyFont
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+
+
+// MyColors
+$putih1: #fffff2;
+$putih2: #f9f9f9;
+$putih3: #fffff4;
+$putih4: #fbf7f5;
+$putih5: #f9f1f1;
+
+// Update Bulma's global variables
+$family-secondary: 'Shadows Into Light', cursive;
+$grey-dark: $putih4;
+$grey-light: $putih2;
+$primary: $putih5;
+$link: $putih3;
+$widescreen-enabled: false;
+$fullhd-enabled: enable;
+
+// Update some of Bulma's component variables
+$body-background-color: $putih5;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+// Import only what you need from Bulma
+@import "../node_modules/bulma/bulma.sass";
+@import "../node_modules/bulma/sass/utilities/_all.sass";
+@import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/elements/button.sass";
+@import "../node_modules/bulma/sass/elements/container.sass";
+@import "../node_modules/bulma/sass/elements/form.sass";
+@import "../node_modules/bulma/sass/elements/title.sass";
+@import "../node_modules/bulma/sass/components/navbar.sass";
+@import "../node_modules/bulma/sass/layout/hero.sass";
+@import "../node_modules/bulma/sass/layout/section.sass";	
